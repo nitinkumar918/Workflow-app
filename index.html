@@ -272,5 +272,14 @@
     <script src="js/analytics.js" type="module"></script>
     <script src="js/pomodoro.js" type="module"></script>
     <script src="js/app.js" type="module"></script>
+    <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js')
+        .then(() => console.log('Service Worker Registered!'))
+        .catch((err) => console.log('SW Registration Failed:', err));
+    });
+  }
+</script>
 </body>
 </html>
