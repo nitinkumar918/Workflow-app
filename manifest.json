@@ -1,11 +1,16 @@
 {
-  "name": "TaskFlow Pro",
-  "short_name": "TaskFlow",
-  "description": "Premium Task Management & Productivity App",
-  "start_url": "./index.html",
+  "$schema": "https://json.schemastore.org/web-manifest",
+  "background_color": "#ffffff",
+  "description": "TaskFlow Pro - list your tasks and get reminded",
+  "dir": "ltr",
   "display": "standalone",
-  "background_color": "#0F172A",
+  "name": "TaskFlow Pro",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "TaskFlow",
+  "start_url": "./index.html",
   "theme_color": "#7C3AED",
+  "id": "workflowtestapp",
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/906/906334.png",
