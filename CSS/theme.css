@@ -1,0 +1,16 @@
+/* Dynamic Theme Overrides */
+[data-theme="light"] {
+    --bg-dark: #F8FAFC;
+    --surface-dark: rgba(255, 255, 255, 0.8);
+    --surface-border: rgba(0, 0, 0, 0.08);
+    --text-main: #0F172A;
+    --text-muted: #64748B;
+}
+
+[data-theme="light"] .sidebar {
+    background: #FFFFFF;
+}
+
+[data-theme="light"] .card {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
