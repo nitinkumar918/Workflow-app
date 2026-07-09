@@ -5,14 +5,14 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebas
 import { getAuth, GoogleAuthProvider } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 import { getFirestore } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
 
-// Safe Config Injection Template
 const firebaseConfig = {
-    apiKey: "YOUR_FIREBASE_API_KEY",
-    authDomain: "taskflow-pro.firebaseapp.com",
-    projectId: "taskflow-pro",
-    storageBucket: "taskflow-pro.appspot.com",
-    messagingSenderId: "123456789",
-    appId: "1:123456789:web:abcdef"
+  apiKey: "AIzaSyCX_rnOp4M9DBq5AwtSyQBcPU_6oz-_9y4",
+  authDomain: "task-flow-b7d9e.firebaseapp.com",
+  projectId: "task-flow-b7d9e",
+  storageBucket: "task-flow-b7d9e.firebasestorage.app",
+  messagingSenderId: "84991029942",
+  appId: "1:84991029942:web:8147feea169e3685d96c17",
+  measurementId: "G-KGR9VQR829"
 };
 
 const app = initializeApp(firebaseConfig);
